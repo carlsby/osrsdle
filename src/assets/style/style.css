@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+html,
+body,
+#root {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* LAYOUT */
+.main-bg {
+    background: url('../images/osrs_wallpaper.webp') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; 
+    width: 100vw;
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #5e432a; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    backdrop-filter: blur(5px);
+    margin: 30px 0px 30px 0px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 975px) {
+    .content {
+        width: 100%;
+        margin: 0px;
+        border: none;
+        padding: 60px;
+    }
+}
+
+.header {
+    padding-bottom: 20px;
+}
+
+.osrs-logo {
+    width: 300px;
+    filter: drop-shadow(2px 2px 5px #000);
+}
+
+@media screen and (max-width: 400px) {
+    .osrs-logo {
+        width: 175px;
+    }
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #5e432a;
+    color: #f0e6d2;
+    font-family: 'Cinzel', serif;
+    border: 2px solid #a67c52;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #7b5e3e;
+}
+
+.button-title {
+    margin: 0px;
+    font-size: 1.4rem;
+}
+
+.button-desc {
+    margin: 0;
+}
+
+.text {
+    color: #d9b38c;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.panel {
+    background-size: cover;
+    padding: 20px;
+    border: 2px solid #a67c52;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: #f0e6d2;
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+}
+
+/* HOME */
+/* HOME */
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .button-group {
+        width: 60%;
+    }
+}
+
+/* BOSSES */
+.boss-main {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boss-card {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    border: 3px solid #5e432a; 
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px #000;
+}
+
+.boss-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.boss-input {
+    width: 100%;
+}
+
+.boss-search {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    border: 3px solid #a67c52;
+    background-color: #5e432a;
+    color: #f0e6d2;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.boss-search::placeholder {
+    color: #f0e6d2;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.boss-ul {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    background-color: #5e432a;
+    border-radius: 10px;
+    border: 3px solid #a67c52;
+}
+
+.boss-li {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    color: #f0e6d2;
+}
+
+.boss-li:hover {
+    background-color: #7b5e3e;
+    cursor: pointer;
+}
+
+.boss-list-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 20px;
+    border: 1px solid #a67c52;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.105);
+}
