@@ -585,6 +585,9 @@ input:focus {
     backdrop-filter: blur(0px);
     filter: blur(0px);
   }
+  body {
+    background: #212121;
+  }
   .disclaimer {
     text-align: center;
   }
