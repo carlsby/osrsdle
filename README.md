@@ -1,6 +1,6 @@
 # OSRSdle
 
-![OSRS Logo](./src/assets/images/osrs_logo.webp)
+<img src="./src/assets/images/osrs_logo.webp" width="250" alt="OSRS Logo" />
 
 ## Overview
 
@@ -28,6 +28,5 @@ In **Bosses Mode**, the game presents a blurred image of the random boss and as 
 
 ## Technologies
 
-- **React:** ![React Icon](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
-- **Axios:** ![Axios Icon](https://axios-http.com/static/favicon-16x16.png)
-- **CSS:** ![CSS Icon](https://upload.wikimedia.org/wikipedia/commons/6/64/CSS3_logo.svg)
+- **React:** <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50" height="50" alt="React Icon" />
+- **CSS:** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1280px-Official_CSS_Logo.svg.png" width="50" height="50" alt="CSS Icon" />
