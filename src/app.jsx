@@ -1,4 +1,4 @@
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Classic from "./pages/Classic";
 import Bosses from "./pages/Bosses";
