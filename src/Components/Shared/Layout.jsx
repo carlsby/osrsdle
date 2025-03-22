@@ -16,8 +16,8 @@ export default function Layout({ children }) {
         {children}
       </div>
       <div className="created-by">
-          <a href="https://github.com/carlsby/osrsdle" className="created-by-link" target="_blank">
-            <img src={GitHubLogo} width={25}/> Carlsby
+          <a href="https://github.com/carlsby/osrsdle" rel="noreferrer" className="created-by-link" target="_blank">
+            <img src={GitHubLogo} alt="github-logo" width={25}/> Carlsby
           </a>
         </div>
     </main>

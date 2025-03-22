@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import placeholder from "../assets/images/placeholder.webp";
 import BossIcon from "../assets/images/icons/npc.webp";
 import CombatLevelIcon from "../assets/images/icons/cb.webp";
 import HitpointsIcon from "../assets/images/icons/hp.webp";
@@ -117,37 +116,37 @@ export default function Classic() {
                 <tr>
                   <th>
                     <span className="icon-text-container">
-                      <img src={BossIcon} className="classic-th-icon" />
+                      <img src={BossIcon} className="classic-th-icon" alt="boss-icon" />
                       Boss
                     </span>
                   </th>
                   <th>
                     <span className="icon-text-container">
-                      <img src={CombatLevelIcon} className="classic-th-icon" />
+                      <img src={CombatLevelIcon} className="classic-th-icon" alt="cb-icon" />
                       Combat Level
                     </span>
                   </th>
                   <th>
                     <span className="icon-text-container">
-                      <img src={HitpointsIcon} className="classic-th-icon" />
+                      <img src={HitpointsIcon} className="classic-th-icon" alt="hp-icon" />
                       Hitpoints
                     </span>
                   </th>
                   <th>
                     <span className="icon-text-container">
-                      <img src={ReleaseDateIcon} className="classic-th-icon" />
+                      <img src={ReleaseDateIcon} className="classic-th-icon" alt="rd-icon" />
                       Release Year
                     </span>
                   </th>
                   <th>
                     <span className="icon-text-container">
-                      <img src={AttackStyleIcon} className="classic-th-icon" />
+                      <img src={AttackStyleIcon} className="classic-th-icon" alt="as-icon" />
                       Attack Style
                     </span>
                   </th>
                   <th>
                     <span className="icon-text-container">
-                      <img src={LocationIcon} className="classic-th-icon" />
+                      <img src={LocationIcon} className="classic-th-icon" alt="loc-icon" />
                       Location
                     </span>
                   </th>
@@ -155,7 +154,7 @@ export default function Classic() {
                 {guessList.map((boss) => (
                   <tr key={boss.id}>
                     <td style={{ animationDelay: "0s" }}>
-                      <img className="classic-boss-img" src={boss.image} />
+                      <img className="classic-boss-img" src={boss.image} alt={boss.name} />
                     </td>
                     <td
                       className={`${
