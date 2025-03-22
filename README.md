@@ -28,6 +28,5 @@ In **Bosses Mode**, the game presents a blurred image of the random boss and as 
 
 ## Technologies
 
-- **React:** <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50" height="50" style="vertical-align: middle; margin-right: 8px;" alt="React Icon" /> React
-- **CSS:** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1280px-Official_CSS_Logo.svg.png" width="50" height="50" style="vertical-align: middle; margin-right: 8px;" alt="CSS Icon" /> CSS
-- **Axios:** <img src="https://axios-http.com/static/favicon-16x16.png" width="50" height="50" style="vertical-align: middle; margin-right: 8px;" alt="Axios Icon" /> Axios
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50" height="50" style="vertical-align: middle; margin-right: 8px;" alt="React Icon" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1280px-Official_CSS_Logo.svg.png" width="50" height="50" style="vertical-align: middle; margin-right: 8px;" alt="CSS Icon" />
