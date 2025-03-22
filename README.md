@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# OSRSdle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![OSRS Logo](./src/assets/images/osrs_logo.webp)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This is a fun and interactive guessing game built with **React** where players try to identify various bosses from the game *Old School RuneScape (OSRS)*. The game presents random information about an OSRS boss, and the user must guess the boss by typing the name into the search bar. The game provides real-time feedback on whether the guess is correct or incorrect, turning the corresponding cell in the table green for correct guesses and red for incorrect guesses.
 
-### `npm start`
+The game also includes search and autocomplete features to help users find bosses faster, and keeps track of their guessing history.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Search and Autocomplete:** Type in the search bar, and it will show boss suggestions based on the search query.
+- **Boss Information:** The game displays detailed information about the boss, including combat level, hitpoints, release date, attack style, and location.
+- **Random Boss Selection:** A random boss is selected at the start of the game, and users guess the boss based on the displayed information.
+- **Guess History:** Tracks the user's guesses, showing correct and incorrect guesses in the history.
+- **Responsive UI:** The game is designed to be responsive and works across different screen sizes.
 
-### `npm test`
+## Game Modes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Classic Mode
 
-### `npm run build`
+In **Classic Mode**, players are presented with various details about an OSRS boss (like combat level, hitpoints, release date, etc.), and they must type in the name of the boss. The game will provide feedback on whether the guess was correct or incorrect and display the boss name with the correct or incorrect highlight in the history list. The user can continue guessing multiple bosses with each guess being tracked.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Bosses Mode
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In **Bosses Mode**, the game presents a blurred image of the random boss and as users make guesses, each correct or incorrect guess progressively **unblurs** parts of the boss's image. The goal is to guess the boss's name while the image remains partially blurred for as long as possible. Each guess gradually reveals more information, making it easier to guess the correct boss over time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React:** ![React Icon](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+- **Axios:** ![Axios Icon](https://axios-http.com/static/favicon-16x16.png)
+- **CSS:** ![CSS Icon](https://upload.wikimedia.org/wikipedia/commons/6/64/CSS3_logo.svg)

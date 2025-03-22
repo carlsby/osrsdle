@@ -433,6 +433,14 @@ input:focus {
   .button-group {
     width: 70%;
   }
+
+  .icon-text-container {
+    flex-direction: column;
+  }
+
+  .classic-th-icon {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -448,6 +456,9 @@ input:focus {
 @media screen and (max-width: 600px) {
   .button-group {
     width: 80%;
+  }
+  .classic-th-icon {
+    display: none;
   }
 }
 
