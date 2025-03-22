@@ -533,11 +533,9 @@ input:focus {
   .classic-boxes {
     width: 70%;
   }
-
   .icon-text-container {
     flex-direction: column;
   }
-
   .classic-th-icon {
     margin: 0;
   }
@@ -558,10 +556,40 @@ input:focus {
   .classic-th-icon {
     display: none;
   }
+  .classic-table {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .classic-table {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .classic-table {
+    transform: scale(0.7);
+  }
+  .color-indicators {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .color-indicators {
+    transform: scale(0.9);
+  }
 }
 
 @media screen and (max-width: 400px) {
   .osrs-logo {
     width: 175px;
+  }
+  .classic-table {
+    transform: scale(0.6);
+  }
+  .color-indicators {
+    transform: scale(0.8);
   }
 }
