@@ -34,6 +34,3 @@ In **Bosses Mode**, the game presents a blurred image of the random boss and as 
 <div style="display: inline-flex; align-items: center; margin-left: 20px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1280px-Official_CSS_Logo.svg.png" width="50" height="50" alt="CSS Icon" />
 </div>
-<div style="display: inline-flex; align-items: center; margin-left: 20px;">
-  <img src="https://axios-http.com/static/favicon-16x16.png" width="50" height="50" alt="Axios Icon" />
-</div>
