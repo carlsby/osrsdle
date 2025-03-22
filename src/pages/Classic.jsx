@@ -26,6 +26,10 @@ export default function Classic() {
     }
   }, [correctGuess]);
 
+    useEffect(() => {
+      document.title = 'Classic | OSRSdle';
+    }, []);
+
   useEffect(() => {
     const fetchBosses = async () => {
       try {

@@ -22,6 +22,10 @@ const Bosses = () => {
   }, [correctGuess]);
 
   useEffect(() => {
+    document.title = 'Bosses | OSRSdle';
+  }, []);
+
+  useEffect(() => {
     const fetchBosses = async () => {
       try {
         const response = await axios.get("/assets/data/bosses.json");

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../Components/Shared/Button";
 import { Link } from "react-router-dom";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Home | OSRSdle";
+  }, []);
   return (
     <div className="button-group">
       <div className="text">
