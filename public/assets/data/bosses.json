@@ -6,7 +6,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "Abyssal Nexus",
     "image": "/assets/img/1.webp",
-    "release_date": "2017-01-24",
+    "release_date": 2017,
     "hitpoints": 600
   },
   {
@@ -16,7 +16,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Karuulm Slayer Dungeon",
     "image": "/assets/img/2.png",
-    "release_date": "2019-01-15",
+    "release_date": 2019,
     "hitpoints": 800
   },
   {
@@ -26,8 +26,8 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Varrock Sewers",
     "image": "/assets/img/3.webp",
-    "release_date": "2024-01-24",
-    "hitpoints": "500"
+    "release_date": 2024,
+    "hitpoints": 500
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "Wilderness",
     "image": "/assets/img/4.webp",
-    "release_date": "2016-07-07",
+    "release_date": 2016,
     "hitpoints": 600
   },
   {
@@ -46,7 +46,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Taverley Dungeon",
     "image": "/assets/img/5.webp",
-    "release_date": "2016-07-07",
+    "release_date": 2016,
     "hitpoints": 650
   },
   {
@@ -56,7 +56,7 @@
     "attack_styles": ["Melee", "Ranged"],
     "location": "Forthos Dungeon",
     "image": "/assets/img/6.webp",
-    "release_date": "2018-02-27",
+    "release_date": 2018,
     "hitpoints": 500
   },
   {
@@ -66,7 +66,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Wilderness",
     "image": "/assets/img/7.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 500
   },
   {
@@ -76,7 +76,7 @@
     "attack_styles": ["Magic"],
     "location": "Wilderness",
     "image": "/assets/img/8.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 300
   },
   {
@@ -86,7 +86,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "God Wars Dungeon",
     "image": "/assets/img/9.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 800
   },
   {
@@ -96,7 +96,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "Corporeal Beast's Lair",
     "image": "/assets/img/10.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 2000
   },
   {
@@ -106,7 +106,7 @@
     "attack_styles": ["Ranged"],
     "location": "Wilderness",
     "image": "/assets/img/11.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 400
   },
   {
@@ -116,7 +116,7 @@
     "attack_styles": ["Melee"],
     "location": "Waterbirth Island Dungeon",
     "image": "/assets/img/12.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 800
   },
   {
@@ -126,7 +126,7 @@
     "attack_styles": ["Ranged"],
     "location": "Waterbirth Island Dungeon",
     "image": "/assets/img/13.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 800
   },
   {
@@ -134,9 +134,9 @@
     "name": "Dagannoth Prime",
     "combat_level": 303,
     "attack_styles": ["Magic"],
-    "location": "Falador Park",
+    "location": "Waterbirth Island Dungeon",
     "image": "/assets/img/14.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 800
   },
   {
@@ -146,7 +146,7 @@
     "attack_styles": ["Ranged"],
     "location": "Fossil Island",
     "image": "/assets/img/15.webp",
-    "release_date": "2018-02-27",
+    "release_date": 2018,
     "hitpoints": 500
   },
   {
@@ -156,7 +156,7 @@
     "attack_styles": ["Melee", "Ranged"],
     "location": "God Wars",
     "image": "/assets/img/16.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 900
   },
   {
@@ -166,7 +166,7 @@
     "attack_styles": ["Melee"],
     "location": "Falador Park",
     "image": "/assets/img/17.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 500
   },
   {
@@ -176,7 +176,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "Farming Guild",
     "image": "/assets/img/18.webp",
-    "release_date": "2018-02-27",
+    "release_date": 2018,
     "hitpoints": 500
   },
   {
@@ -186,7 +186,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Kalphite Lair",
     "image": "/assets/img/19.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 800
   },
   {
@@ -196,7 +196,7 @@
     "attack_styles": ["Melee", "Dragonfire"],
     "location": "Wilderness",
     "image": "/assets/img/20.webp",
-    "release_date": "2002-09-24",
+    "release_date": 2002,
     "hitpoints": 600
   },
 
@@ -207,7 +207,7 @@
     "attack_styles": ["Melee", "Ranged"],
     "location": "God Wars Dungeon",
     "image": "/assets/img/21.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 800
   },
   {
@@ -217,7 +217,7 @@
     "attack_styles": ["Magic", "Ranged"],
     "location": "The Kraken Cove",
     "image": "/assets/img/22.webp",
-    "release_date": "2017-01-24",
+    "release_date": 2014,
     "hitpoints": 200
   },
   {
@@ -227,7 +227,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "God Wars Dungeon",
     "image": "/assets/img/23.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 800
   },
   {
@@ -237,7 +237,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "The Forsaken Tower",
     "image": "/assets/img/24.webp",
-    "release_date": "2018-11-19",
+    "release_date": 2018,
     "hitpoints": 500
   },
   {
@@ -247,7 +247,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Sisterhood Sanctuary in Slepe",
     "image": "/assets/img/25.webp",
-    "release_date": "2019-11-04",
+    "release_date": 2019,
     "hitpoints": 1250
   },
   {
@@ -257,7 +257,7 @@
     "attack_styles": ["Magic"],
     "location": "Barrows",
     "image": "/assets/img/26.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 70
   },
   {
@@ -267,7 +267,7 @@
     "attack_styles": ["Ranged"],
     "location": "Barrows",
     "image": "/assets/img/27.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 70
   },
   {
@@ -277,7 +277,7 @@
     "attack_styles": ["Melee"],
     "location": "Barrows",
     "image": "/assets/img/28.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 100
   },
   {
@@ -287,7 +287,7 @@
     "attack_styles": ["Melee"],
     "location": "Barrows",
     "image": "/assets/img/29.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 100
   },
   {
@@ -297,7 +297,7 @@
     "attack_styles": ["Melee"],
     "location": "Barrows",
     "image": "/assets/img/30.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 100
   },
   {
@@ -307,7 +307,7 @@
     "attack_styles": ["Melee"],
     "location": "Barrows",
     "image": "/assets/img/31.webp",
-    "release_date": "2004-03-29",
+    "release_date": 2004,
     "hitpoints": 100
   },
   {
@@ -317,8 +317,8 @@
     "attack_styles": ["Melee"],
     "location": "Neypotzli",
     "image": "/assets/img/32.webp",
-    "release_date": "2024-03-30",
-    "hitpoints": "500"
+    "release_date": 2024,
+    "hitpoints": 500
   },
   {
     "id": 33,
@@ -327,8 +327,8 @@
     "attack_styles": ["Melee"],
     "location": "Neypotzli",
     "image": "/assets/img/33.webp",
-    "release_date": "2024-03-20",
-    "hitpoints": "500"
+    "release_date": 2024,
+    "hitpoints": 500
   },
   {
     "id": 34,
@@ -337,8 +337,8 @@
     "attack_styles": ["Melee"],
     "location": "Neypotzli",
     "image": "/assets/img/34.webp",
-    "release_date": "2024-03-20",
-    "hitpoints": "500"
+    "release_date": 2024,
+    "hitpoints": 500
   },
   {
     "id": 35,
@@ -347,8 +347,8 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "The Darkfrost",
     "image": "/assets/img/35.webp",
-    "release_date": "2024-10-25",
-    "hitpoints": "2500"
+    "release_date": 2024,
+    "hitpoints": 2500
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Ancient Prison",
     "image": "/assets/img/36.webp",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 2000
   },
   {
@@ -367,7 +367,7 @@
     "attack_styles": ["Melee"],
     "location": "Wilderness",
     "image": "/assets/img/37.png",
-    "release_date": "2011-06-07",
+    "release_date": 2011,
     "hitpoints": 350
   },
   {
@@ -377,7 +377,7 @@
     "attack_styles": ["Ranged"],
     "location": "East of Zul-Andra",
     "image": "/assets/img/38.webp",
-    "release_date": "2015-02-17",
+    "release_date": 2015,
     "hitpoints": 750
   },
   {
@@ -387,7 +387,7 @@
     "attack_styles": ["Melee", "Ranged", "Magic"],
     "location": "Ungael",
     "image": "/assets/img/39.webp",
-    "release_date": "2017-04-10",
+    "release_date": 2017,
     "hitpoints": 800
   },
   {
@@ -397,7 +397,7 @@
     "attack_styles": ["Melee", "Ranged"],
     "location": "Edgeville Dungeon",
     "image": "/assets/img/40.webp",
-    "release_date": "2019-06-24",
+    "release_date": 2019,
     "hitpoints": 200
   },
   {
@@ -407,7 +407,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "Varrock Sewers",
     "image": "/assets/img/41.webp",
-    "release_date": "2019-01-15",
+    "release_date": 2019,
     "hitpoints": 500
   },
   {
@@ -417,7 +417,7 @@
     "attack_styles": ["Melee", "Magic"],
     "location": "Catacombs of Kourend",
     "image": "/assets/img/42.webp",
-    "release_date": "2017-05-29",
+    "release_date": 2017,
     "hitpoints": 800
   },
   {
@@ -427,7 +427,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Morytania Spider Cave",
     "image": "/assets/img/43.webp",
-    "release_date": "2019-10-07",
+    "release_date": 2019,
     "hitpoints": 1100
   },
   {
@@ -437,7 +437,7 @@
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "TzHaar Fight Cave",
     "image": "/assets/img/44.webp",
-    "release_date": "2005-01-01",
+    "release_date": 2005,
     "hitpoints": 250
   },
   {
@@ -447,7 +447,7 @@
     "attack_styles": ["Magic", "Ranged"],
     "location": "The Inferno",
     "image": "/assets/img/45.webp",
-    "release_date": "2017-07-03",
+    "release_date": 2017,
     "hitpoints": 1500
   },
   {
@@ -457,7 +457,7 @@
     "attack_styles": ["N/A"],
     "location": "Tempoross Cove",
     "image": "/assets/img/46.webp",
-    "release_date": "2020-11-23",
+    "release_date": 2020,
     "hitpoints": 800
   }
 ]

@@ -42,6 +42,20 @@ a {
   background-color: #7d0a0a !important;
 }
 
+.partly-guess {
+  background-color: #a99514 !important;
+}
+
+.arrow-up {
+  background: url("../images/icons/arrow_up.png") no-repeat center center;
+  background-size: 75% 90%;
+}
+
+.arrow-down {
+  background: url("../images/icons/arrow_down.png") no-repeat center center;
+  background-size: 75% 90%;
+}
+
 /* LAYOUT */
 .main-bg {
   position: relative;
@@ -142,8 +156,25 @@ a {
 
 .created-by {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   color: #f0e6d2;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.created-by-link {
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.created-by-link:hover {
+  text-decoration: underline;
 }
 
 /* HOME */
@@ -190,6 +221,7 @@ a {
 
 .boss-input {
   width: 100%;
+  position: relative;
 }
 
 .boss-search {
@@ -202,11 +234,13 @@ a {
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
+  transition: padding 0.3s ease;
 }
 
 .boss-search::placeholder {
   color: #f0e6d2;
   font-size: 16px;
+  padding: 10px;
 }
 
 input:focus {
@@ -214,13 +248,22 @@ input:focus {
 }
 
 .boss-ul {
-  margin: 10px 0px 0px 0px;
-  padding: 0px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
   background-color: #5e432a;
   border-radius: 10px;
   border: 3px solid #a67c52;
   max-height: 300px;
   overflow-y: auto;
+}
+
+.classic-ul {
+  top: 50px;
 }
 
 .boss-li {
@@ -311,12 +354,19 @@ input:focus {
 
 .correct-image {
   width: 125px;
+  height: 100%;
+  object-fit: contain;
   padding: 10px;
   border-radius: 10px;
   background-color: #0a0a0967;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.correct-info-text {
+  margin: 0px;
+  font-size: 0.8rem;
 }
 
 .correct-boss-name {
@@ -330,6 +380,14 @@ input:focus {
 }
 
 /* CLASSIC */
+.classic-boxes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  position: relative;
+}
+
 .classic-table {
   width: 100%;
   border-spacing: 10px;
@@ -356,6 +414,17 @@ input:focus {
   object-fit: contain;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .classic-table td {
   background-color: #5e432a;
   text-align: center;
@@ -364,6 +433,9 @@ input:focus {
   padding: 6px;
   font-size: 1rem;
   color: #f0e6d2;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  position: relative;
 }
 
 .classic-boss-img-td {
@@ -384,53 +456,81 @@ input:focus {
   justify-content: center;
 }
 
+.classic-search {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: #5e432a;
+  border-radius: 10px;
+  border: 3px solid #a67c52;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.color-indicators {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #5e432a3f;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 3px solid #a67c5244;
+  color: #f0e6d2;
+}
+
+.indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1800px) {
-  .boss-main {
-    width: 40%;
-  }
-
-  .button-group {
+  .boss-main,
+  .button-group,
+  .classic-boxes {
     width: 40%;
   }
 }
 
 @media screen and (max-width: 1500px) {
-  .boss-main {
-    width: 45%;
-  }
-
-  .button-group {
+  .boss-main,
+  .button-group,
+  .classic-boxes {
     width: 45%;
   }
 }
 
 @media screen and (max-width: 1400px) {
-  .boss-main {
-    width: 50%;
-  }
-
-  .button-group {
+  .boss-main,
+  .button-group,
+  .classic-boxes {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .boss-main {
-    width: 60%;
-  }
-
-  .button-group {
+  .boss-main,
+  .button-group,
+  .classic-boxes {
     width: 60%;
   }
 }
 
 @media screen and (max-width: 975px) {
-  .boss-main {
-    width: 70%;
-  }
-
-  .button-group {
+  .boss-main,
+  .button-group,
+  .classic-boxes {
     width: 70%;
   }
 
@@ -444,11 +544,9 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
-  .boss-main {
-    width: 100%;
-  }
-
-  .button-group {
+  .boss-main,
+  .button-group,
+  .classic-boxes {
     width: 100%;
   }
 }

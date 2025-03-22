@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
 const Bosses = () => {
@@ -9,6 +9,17 @@ const Bosses = () => {
   const [guessList, setGuessList] = useState([]);
   const [correctGuess, setCorrectGuess] = useState(false);
   const [guesses, setGueses] = useState(0);
+
+  const correctDisplayRef = useRef(null);
+
+  useEffect(() => {
+    if (correctGuess && correctDisplayRef.current) {
+      correctDisplayRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  }, [correctGuess]);
 
   useEffect(() => {
     const fetchBosses = async () => {
@@ -55,7 +66,7 @@ const Bosses = () => {
     setAllBosses(updatedBosses);
   };
 
-  if (!randomBoss) return <div>Loading...</div>;
+  if (!randomBoss) return <div></div>;
 
   return (
     <>
@@ -127,10 +138,9 @@ const Bosses = () => {
           </ul>
         </div>
         {correctGuess && (
-          <div className="correct-display">
+          <div ref={correctDisplayRef} className="correct-display">
             <h3 className="correct-title">Nicely done!</h3>
             <div className="correct-con">
-              You guessed:
               <div className="correct-info">
                 <img
                   className="correct-image"
@@ -139,7 +149,9 @@ const Bosses = () => {
                 />
                 <div>
                   <h4 className="correct-boss-name">{randomBoss.name}</h4>
-                  <p className="correct-number">Number of tries: <b>{guesses}</b></p>
+                  <p className="correct-number">
+                    Number of tries: <b>{guesses}</b>
+                  </p>
                 </div>
               </div>
             </div>
