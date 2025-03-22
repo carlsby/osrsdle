@@ -574,6 +574,9 @@ input:focus {
   .color-indicators {
     width: 400px;
   }
+  .classic-search, .boss-search {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 410px) {
