@@ -4,12 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./app";
 import Layout from "./Components/Shared/Layout";
 import "./assets/style/style.css";
+import 'animate.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Layout>
-    <BrowserRouter>
+  <BrowserRouter>
+    <Layout>
       <App />
-    </BrowserRouter>
-  </Layout>
+    </Layout>
+  </BrowserRouter>
 );

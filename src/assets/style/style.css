@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
 
+/* GENERAL */
 html,
 body,
 #root {
@@ -11,208 +13,446 @@ body,
   box-sizing: border-box;
 }
 
-/* LAYOUT */
-.main-bg {
-    background: url('../images/osrs_wallpaper.webp') no-repeat center center;
-    background-size: cover;
-    min-height: 100vh; 
-    width: 100vw;
-    background-attachment: fixed; 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+* {
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    padding: 40px;
-    background: rgba(0, 0, 0, 0.7);
-    border: 3px solid #5e432a; 
-    border-radius: 10px;
-    box-shadow: 0 0 20px #000;
-    backdrop-filter: blur(5px);
-    margin: 30px 0px 30px 0px;
-    flex-grow: 1;
-}
-
-@media screen and (max-width: 975px) {
-    .content {
-        width: 100%;
-        margin: 0px;
-        border: none;
-        padding: 60px;
-    }
-}
-
-.header {
-    padding-bottom: 20px;
-}
-
-.osrs-logo {
-    width: 300px;
-    filter: drop-shadow(2px 2px 5px #000);
-}
-
-@media screen and (max-width: 400px) {
-    .osrs-logo {
-        width: 175px;
-    }
-}
-
-.button {
-    padding: 10px 20px;
-    background-color: #5e432a;
-    color: #f0e6d2;
-    font-family: 'Cinzel', serif;
-    border: 2px solid #a67c52;
-    border-radius: 5px;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: background-color 0.3s;
-    width: 100%;
-}
-
-.button:hover {
-    background-color: #7b5e3e;
-}
-
-.button-title {
-    margin: 0px;
-    font-size: 1.4rem;
-}
-
-.button-desc {
-    margin: 0;
-}
-
-.text {
-    color: #d9b38c;
-    font-family: 'Cinzel', serif;
-    font-size: 18px;
-    text-align: center;
-    line-height: 1.5;
-}
-
-.panel {
-    background-size: cover;
-    padding: 20px;
-    border: 2px solid #a67c52;
-    border-radius: 8px;
-    margin-top: 20px;
-    width: 100%;
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
-    color: #f0e6d2;
-    font-family: 'Cinzel', serif;
-    font-size: 2.2rem;
+  color: #f0e6d2;
+  font-size: 2.2rem;
+}
+
+a {
+  color: #f0e6d2;
+  font-family: "Cinzel", serif;
+  text-decoration: none;
+}
+
+.correct-guess {
+  background-color: #4caf50 !important;
+}
+
+.wrong-guess {
+  background-color: #7d0a0a !important;
+}
+
+/* LAYOUT */
+.main-bg {
+  position: relative;
+  background: url("../images/osrs_wallpaper.webp") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 20px #000;
+  z-index: 1;
+}
+
+.main-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px #000;
+  backdrop-filter: blur(5px);
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 30px 0px 30px 0px;
+  flex-grow: 1;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.osrs-logo {
+  width: 250px;
+  filter: drop-shadow(2px 2px 5px #000);
+  transition: transform 0.2s ease-in-out;
+}
+
+.osrs-logo:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #5e432a;
+  color: #f0e6d2;
+  border: 2px solid #a67c52;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #7b5e3e;
+}
+
+.button-title {
+  margin: 0px;
+  font-size: 1.4rem;
+}
+
+.button-desc {
+  margin: 0;
+}
+
+.text {
+  color: #d9b38c;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.panel {
+  background-size: cover;
+  padding: 20px;
+  border: 2px solid #a67c52;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.created-by {
+  position: absolute;
+  bottom: 20px;
+  color: #f0e6d2;
 }
 
 /* HOME */
-/* HOME */
-
 .button-group {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    width: 100%;
-}
-
-
-@media screen and (min-width: 1200px) {
-    .button-group {
-        width: 60%;
-    }
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 60%;
 }
 
 /* BOSSES */
 .boss-main {
-    width: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .boss-card {
-    padding: 30px 0px 30px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 100%;
-    border: 3px solid #5e432a; 
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 0 20px #000;
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  border: 3px solid #5e432a;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px #000;
+  background-color: rgba(0, 0, 0, 0.601);
 }
 
 .boss-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .boss-input {
-    width: 100%;
+  width: 100%;
 }
 
 .boss-search {
-    margin-top: 30px;
-    width: 100%;
-    font-size: 20px;
-    font-family: 'Cinzel', serif;
-    border: 3px solid #a67c52;
-    background-color: #5e432a;
-    color: #f0e6d2;
-    border-radius: 10px;
-    padding: 5px;
-    box-sizing: border-box;
+  margin-top: 30px;
+  width: 100%;
+  font-size: 20px;
+  border: 3px solid #a67c52;
+  background-color: #5e432a;
+  color: #f0e6d2;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .boss-search::placeholder {
-    color: #f0e6d2;
-    font-size: 16px;
+  color: #f0e6d2;
+  font-size: 16px;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .boss-ul {
-    margin: 10px 0px 0px 0px;
-    padding: 0px;
-    background-color: #5e432a;
-    border-radius: 10px;
-    border: 3px solid #a67c52;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  background-color: #5e432a;
+  border-radius: 10px;
+  border: 3px solid #a67c52;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .boss-li {
-    padding: 10px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    font-family: 'Cinzel', serif;
-    color: #f0e6d2;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #f0e6d2;
 }
 
 .boss-li:hover {
-    background-color: #7b5e3e;
-    cursor: pointer;
+  background-color: #7b5e3e;
+  cursor: pointer;
 }
 
 .boss-list-img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    margin-right: 20px;
-    border: 1px solid #a67c52;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.105);
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 20px;
+  border: 1px solid #a67c52;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.105);
+}
+
+.guessed-boss-li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.boss-guess-img {
+  border: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+@keyframes correctGuessEffect {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.02);
+    filter: brightness(1.5) drop-shadow(0 0 15px #2f6931);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+.correct-boss {
+  animation: correctGuessEffect 0.6s ease-in-out;
+}
+
+.correct-display {
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #2f6931;
+  border-radius: 10px;
+  color: #f0e6d2;
+}
+
+.correct-title {
+  margin: 0px 0px 10px 0px;
+  font-size: 1.5rem;
+}
+
+.correct-con {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.correct-info {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+  margin: 10px 0px 0px 10px;
+}
+
+.correct-image {
+  width: 125px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0a0a0967;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correct-boss-name {
+  margin: 10px 0px 0px 0px;
+}
+
+.correct-number {
+  margin: 5px 0px 0px 0px;
+  font-size: 1rem;
+  color: #fcf79c;
+}
+
+/* CLASSIC */
+.classic-table {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.classic-table th {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #333;
+  background-color: #5e432a;
+  border-radius: 10px;
+  color: #f0e6d2;
+  padding: 10px;
+}
+
+.classic-table tr {
+  display: table-row;
+}
+
+.classic-boss-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.classic-table td {
+  background-color: #5e432a;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 1rem;
+  color: #f0e6d2;
+}
+
+.classic-boss-img-td {
+  background-color: #00000065 !important;
+  border: 2px solid #a67c52;
+}
+
+.classic-th-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1800px) {
+  .boss-main {
+    width: 40%;
+  }
+
+  .button-group {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .boss-main {
+    width: 45%;
+  }
+
+  .button-group {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .boss-main {
+    width: 50%;
+  }
+
+  .button-group {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .boss-main {
+    width: 60%;
+  }
+
+  .button-group {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .boss-main {
+    width: 70%;
+  }
+
+  .button-group {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boss-main {
+    width: 100%;
+  }
+
+  .button-group {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button-group {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .osrs-logo {
+    width: 175px;
+  }
 }

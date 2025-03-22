@@ -5,7 +5,9 @@
     "combat_level": 350,
     "attack_styles": ["Melee", "Magic"],
     "location": "Abyssal Nexus",
-    "image": "/assets/img/1.webp"
+    "image": "/assets/img/1.webp",
+    "release_date": "2017-01-24",
+    "hitpoints": 600
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "combat_level": 426,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Karuulm Slayer Dungeon",
-    "image": "/assets/img/2.png"
+    "image": "/assets/img/2.png",
+    "release_date": "2019-01-15",
+    "hitpoints": 800
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "combat_level": 200,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Varrock Sewers",
-    "image": "/assets/img/3.webp"
+    "image": "/assets/img/3.webp",
+    "release_date": "2024-01-24",
+    "hitpoints": "500"
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@
     "combat_level": 470,
     "attack_styles": ["Melee", "Magic"],
     "location": "Wilderness",
-    "image": "/assets/img/4.webp"
+    "image": "/assets/img/4.webp",
+    "release_date": "2016-07-07",
+    "hitpoints": 600
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "combat_level": 318,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Taverley Dungeon",
-    "image": "/assets/img/5.webp"
+    "image": "/assets/img/5.webp",
+    "release_date": "2016-07-07",
+    "hitpoints": 650
   },
   {
     "id": 6,
@@ -45,7 +55,9 @@
     "combat_level": 318,
     "attack_styles": ["Melee", "Ranged"],
     "location": "Forthos Dungeon",
-    "image": "/assets/img/6.webp"
+    "image": "/assets/img/6.webp",
+    "release_date": "2018-02-27",
+    "hitpoints": 500
   },
   {
     "id": 7,
@@ -53,7 +65,9 @@
     "combat_level": 305,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Wilderness",
-    "image": "/assets/img/7.webp"
+    "image": "/assets/img/7.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 500
   },
   {
     "id": 8,
@@ -61,7 +75,9 @@
     "combat_level": 202,
     "attack_styles": ["Magic"],
     "location": "Wilderness",
-    "image": "/assets/img/8.webp"
+    "image": "/assets/img/8.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 300
   },
   {
     "id": 9,
@@ -69,7 +85,9 @@
     "combat_level": 596,
     "attack_styles": ["Melee", "Magic"],
     "location": "God Wars Dungeon",
-    "image": "/assets/img/9.webp"
+    "image": "/assets/img/9.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 800
   },
   {
     "id": 10,
@@ -77,7 +95,9 @@
     "combat_level": 785,
     "attack_styles": ["Melee", "Magic"],
     "location": "Corporeal Beast's Lair",
-    "image": "/assets/img/10.webp"
+    "image": "/assets/img/10.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 2000
   },
   {
     "id": 11,
@@ -85,7 +105,9 @@
     "combat_level": 204,
     "attack_styles": ["Ranged"],
     "location": "Wilderness",
-    "image": "/assets/img/11.webp"
+    "image": "/assets/img/11.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 400
   },
   {
     "id": 12,
@@ -93,7 +115,9 @@
     "combat_level": 303,
     "attack_styles": ["Melee"],
     "location": "Waterbirth Island Dungeon",
-    "image": "/assets/img/12.webp"
+    "image": "/assets/img/12.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 800
   },
   {
     "id": 13,
@@ -101,7 +125,9 @@
     "combat_level": 303,
     "attack_styles": ["Ranged"],
     "location": "Waterbirth Island Dungeon",
-    "image": "/assets/img/13.webp"
+    "image": "/assets/img/13.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 800
   },
   {
     "id": 14,
@@ -109,7 +135,9 @@
     "combat_level": 303,
     "attack_styles": ["Magic"],
     "location": "Falador Park",
-    "image": "/assets/img/14.webp"
+    "image": "/assets/img/14.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 800
   },
   {
     "id": 15,
@@ -117,7 +145,9 @@
     "combat_level": 276,
     "attack_styles": ["Ranged"],
     "location": "Fossil Island",
-    "image": "/assets/img/15.webp"
+    "image": "/assets/img/15.webp",
+    "release_date": "2018-02-27",
+    "hitpoints": 500
   },
   {
     "id": 16,
@@ -125,7 +155,9 @@
     "combat_level": 624,
     "attack_styles": ["Melee", "Ranged"],
     "location": "God Wars",
-    "image": "/assets/img/16.webp"
+    "image": "/assets/img/16.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 900
   },
   {
     "id": 17,
@@ -133,7 +165,9 @@
     "combat_level": 230,
     "attack_styles": ["Melee"],
     "location": "Falador Park",
-    "image": "/assets/img/17.webp"
+    "image": "/assets/img/17.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 500
   },
   {
     "id": 18,
@@ -141,7 +175,9 @@
     "combat_level": 284,
     "attack_styles": ["Melee", "Magic"],
     "location": "Farming Guild",
-    "image": "/assets/img/18.webp"
+    "image": "/assets/img/18.webp",
+    "release_date": "2018-02-27",
+    "hitpoints": 500
   },
   {
     "id": 19,
@@ -149,7 +185,9 @@
     "combat_level": 333,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Kalphite Lair",
-    "image": "/assets/img/19.webp"
+    "image": "/assets/img/19.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 800
   },
   {
     "id": 20,
@@ -157,15 +195,20 @@
     "combat_level": 276,
     "attack_styles": ["Melee", "Dragonfire"],
     "location": "Wilderness",
-    "image": "/assets/img/20.webp"
+    "image": "/assets/img/20.webp",
+    "release_date": "2002-09-24",
+    "hitpoints": 600
   },
+
   {
     "id": 21,
     "name": "Kree'arra",
     "combat_level": 580,
     "attack_styles": ["Melee", "Ranged"],
     "location": "God Wars Dungeon",
-    "image": "/assets/img/21.webp"
+    "image": "/assets/img/21.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 800
   },
   {
     "id": 22,
@@ -173,7 +216,9 @@
     "combat_level": 100,
     "attack_styles": ["Magic", "Ranged"],
     "location": "The Kraken Cove",
-    "image": "/assets/img/22.webp"
+    "image": "/assets/img/22.webp",
+    "release_date": "2017-01-24",
+    "hitpoints": 200
   },
   {
     "id": 23,
@@ -181,7 +226,9 @@
     "combat_level": 650,
     "attack_styles": ["Melee", "Magic"],
     "location": "God Wars Dungeon",
-    "image": "/assets/img/23.webp"
+    "image": "/assets/img/23.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 800
   },
   {
     "id": 24,
@@ -189,7 +236,9 @@
     "combat_level": 530,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "The Forsaken Tower",
-    "image": "/assets/img/24.webp"
+    "image": "/assets/img/24.webp",
+    "release_date": "2018-11-19",
+    "hitpoints": 500
   },
   {
     "id": 25,
@@ -197,166 +246,209 @@
     "combat_level": 814,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Sisterhood Sanctuary in Slepe",
-    "image": "/assets/img/25.webp"
+    "image": "/assets/img/25.webp",
+    "release_date": "2019-11-04",
+    "hitpoints": 1250
   },
   {
     "id": 26,
     "name": "Ahrim the Blighted",
-    "combat_level": "98",
+    "combat_level": 98,
     "attack_styles": ["Magic"],
     "location": "Barrows",
-    "image": "/assets/img/26.webp"
+    "image": "/assets/img/26.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 70
   },
   {
     "id": 27,
     "name": "Karil the Tainted",
-    "combat_level": "98",
+    "combat_level": 98,
     "attack_styles": ["Ranged"],
     "location": "Barrows",
-    "image": "/assets/img/27.webp"  },
+    "image": "/assets/img/27.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 70
+  },
   {
     "id": 28,
     "name": "Dharok the Wretched",
-    "combat_level": "115",
+    "combat_level": 115,
     "attack_styles": ["Melee"],
     "location": "Barrows",
-    "image": "/assets/img/28.webp"
+    "image": "/assets/img/28.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 100
   },
   {
     "id": 29,
     "name": "Guthan the Infested",
-    "combat_level": "115",
+    "combat_level": 115,
     "attack_styles": ["Melee"],
     "location": "Barrows",
-    "image": "/assets/img/29.webp"
+    "image": "/assets/img/29.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 100
   },
   {
     "id": 30,
     "name": "Torag the Corrupted",
-    "combat_level": "115",
+    "combat_level": 115,
     "attack_styles": ["Melee"],
     "location": "Barrows",
-    "image": "/assets/img/30.webp"
+    "image": "/assets/img/30.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 100
   },
   {
     "id": 31,
     "name": "Verac the Defiled",
-    "combat_level": "115",
+    "combat_level": 115,
     "attack_styles": ["Melee"],
     "location": "Barrows",
-    "image": "/assets/img/31.webp"
+    "image": "/assets/img/31.webp",
+    "release_date": "2004-03-29",
+    "hitpoints": 100
   },
   {
     "id": 32,
     "name": "Blood Moon",
-    "combat_level": "329",
+    "combat_level": 329,
     "attack_styles": ["Melee"],
-    "location": "Barrows",
-    "image": "/assets/img/32.webp"
+    "location": "Neypotzli",
+    "image": "/assets/img/32.webp",
+    "release_date": "2024-03-30",
+    "hitpoints": "500"
   },
   {
     "id": 33,
     "name": "Blue Moon",
-    "combat_level": "329",
+    "combat_level": 329,
     "attack_styles": ["Melee"],
-    "location": "Barrows",
-    "image": "/assets/img/33.webp"
+    "location": "Neypotzli",
+    "image": "/assets/img/33.webp",
+    "release_date": "2024-03-20",
+    "hitpoints": "500"
   },
   {
     "id": 34,
     "name": "Eclipse Moon",
-    "combat_level": "329",
+    "combat_level": 329,
     "attack_styles": ["Melee"],
-    "location": "Barrows",
-    "image": "/assets/img/34.webp"
+    "location": "Neypotzli",
+    "image": "/assets/img/34.webp",
+    "release_date": "2024-03-20",
+    "hitpoints": "500"
   },
   {
     "id": 35,
     "name": "The Hueycoatl",
-    "combat_level": "642",
+    "combat_level": 642,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "The Darkfrost",
-    "image": "/assets/img/35.webp"
+    "image": "/assets/img/35.webp",
+    "release_date": "2024-10-25",
+    "hitpoints": "2500"
   },
   {
     "id": 36,
     "name": "Nex",
-    "combat_level": "1001",
+    "combat_level": 1001,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Ancient Prison",
-    "image": "/assets/img/36.webp"
+    "image": "/assets/img/36.webp",
+    "release_date": "2011-06-07",
+    "hitpoints": 2000
   },
   {
     "id": 37,
     "name": "Scorpia",
-    "combat_level": "225",
+    "combat_level": 225,
     "attack_styles": ["Melee"],
     "location": "Wilderness",
-    "image": "/assets/img/37.png"
+    "image": "/assets/img/37.png",
+    "release_date": "2011-06-07",
+    "hitpoints": 350
   },
   {
     "id": 38,
     "name": "Zulrah",
-    "combat_level": "725",
+    "combat_level": 725,
     "attack_styles": ["Ranged"],
     "location": "East of Zul-Andra",
-    "image": "/assets/img/38.webp"
+    "image": "/assets/img/38.webp",
+    "release_date": "2015-02-17",
+    "hitpoints": 750
   },
   {
     "id": 39,
     "name": "Vorkath",
-    "combat_level": "732",
+    "combat_level": 732,
     "attack_styles": ["Melee", "Ranged", "Magic"],
     "location": "Ungael",
-    "image": "/assets/img/39.webp"
+    "image": "/assets/img/39.webp",
+    "release_date": "2017-04-10",
+    "hitpoints": 800
   },
   {
     "id": 40,
     "name": "Obor",
-    "combat_level": "106",
+    "combat_level": 106,
     "attack_styles": ["Melee", "Ranged"],
     "location": "Edgeville Dungeon",
-    "image": "/assets/img/40.webp"
+    "image": "/assets/img/40.webp",
+    "release_date": "2019-06-24",
+    "hitpoints": 200
   },
   {
     "id": 41,
     "name": "Bryophyta",
-    "combat_level": "128",
+    "combat_level": 128,
     "attack_styles": ["Melee", "Magic"],
     "location": "Varrock Sewers",
-    "image": "/assets/img/41.webp"
+    "image": "/assets/img/41.webp",
+    "release_date": "2019-01-15",
+    "hitpoints": 500
   },
   {
     "id": 42,
     "name": "Skotizo",
-    "combat_level": "321",
+    "combat_level": 321,
     "attack_styles": ["Melee", "Magic"],
     "location": "Catacombs of Kourend",
-    "image": "/assets/img/42.webp"
+    "image": "/assets/img/42.webp",
+    "release_date": "2017-05-29",
+    "hitpoints": 800
   },
   {
     "id": 43,
     "name": "Arraxor",
-    "combat_level": "890",
+    "combat_level": 890,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "Morytania Spider Cave",
-    "image": "/assets/img/43.webp"
+    "image": "/assets/img/43.webp",
+    "release_date": "2019-10-07",
+    "hitpoints": 1100
   },
   {
     "id": 44,
     "name": "TzTok-Jad",
-    "combat_level": "702",
+    "combat_level": 702,
     "attack_styles": ["Melee", "Magic", "Ranged"],
     "location": "TzHaar Fight Cave",
-    "image": "/assets/img/44.webp"
+    "image": "/assets/img/44.webp",
+    "release_date": "2005-01-01",
+    "hitpoints": 250
   },
   {
     "id": 45,
     "name": "TzKal-Zuk",
-    "combat_level": "1400",
+    "combat_level": 1400,
     "attack_styles": ["Magic", "Ranged"],
     "location": "The Inferno",
-    "image": "/assets/img/45.webp"
+    "image": "/assets/img/45.webp",
+    "release_date": "2017-07-03",
+    "hitpoints": 1500
   },
   {
     "id": 46,
@@ -364,6 +456,8 @@
     "combat_level": "N/A",
     "attack_styles": ["N/A"],
     "location": "Tempoross Cove",
-    "image": "/assets/img/46.webp"
+    "image": "/assets/img/46.webp",
+    "release_date": "2020-11-23",
+    "hitpoints": 800
   }
 ]
