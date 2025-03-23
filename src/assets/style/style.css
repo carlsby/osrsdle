@@ -614,6 +614,9 @@ input:focus {
   .boss-img {
     width: 90%;
   }
+  .classic-table th {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {
