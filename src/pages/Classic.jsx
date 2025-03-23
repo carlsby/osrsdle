@@ -6,6 +6,7 @@ import ReleaseDateIcon from "../assets/images/icons/date.png";
 import AttackStyleIcon from "../assets/images/icons/combat.webp";
 import LocationIcon from "../assets/images/icons/location.png";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function Classic() {
   const [allBosses, setAllBosses] = useState([]);
@@ -16,6 +17,7 @@ export default function Classic() {
   const [guesses, setGueses] = useState(0);
 
   const correctDisplayRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (correctGuess && correctDisplayRef.current) {
@@ -74,11 +76,7 @@ export default function Classic() {
   };
 
   const playAgain = () => {
-    setCorrectGuess(false);
-    setGuessList([]);
-    setSearchQuery("");
-    setGueses(0);
-    setRandomBoss(getRandomBoss(allBosses)); 
+    navigate(0);
   };
 
   if (!randomBoss) return <div></div>;

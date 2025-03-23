@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Bosses = () => {
   const [allBosses, setAllBosses] = useState([]);
@@ -11,6 +12,7 @@ const Bosses = () => {
   const [guesses, setGueses] = useState(0);
 
   const correctDisplayRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (correctGuess && correctDisplayRef.current) {
@@ -71,12 +73,7 @@ const Bosses = () => {
   };
 
   const playAgain = () => {
-    setCorrectGuess(false);
-    setGuessList([]);
-    setSearchQuery("");
-    setGueses(0);
-    setBlur(15);
-    setRandomBoss(getRandomBoss(allBosses)); 
+    navigate(0);
   };
 
   if (!randomBoss) return <div></div>;
