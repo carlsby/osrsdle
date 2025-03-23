@@ -620,7 +620,7 @@ input:focus {
 }
 
 @media screen and (max-width: 500px) {
-  .classic-table td {
+  .classic-table td, .classic-table th {
     font-size: 8px;
   }
 }
