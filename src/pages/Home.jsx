@@ -17,7 +17,7 @@ function Home() {
       <Link to="/bosses">
         <Button description={"With a blurry card"}>BOSSES</Button>
       </Link>
-      {/* <Button description={"With quest description"}>QUESTS</Button> */}
+      <Button description={"With quest description"}>QUESTS</Button>
     </div>
   );
 }
