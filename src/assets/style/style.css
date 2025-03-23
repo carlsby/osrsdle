@@ -635,6 +635,9 @@ input:focus {
   .boss-search {
     margin-bottom: 40px;
   }
+  .classic-table th {
+    font-size: 7px;
+  }
 }
 
 @media screen and (max-width: 410px) {
