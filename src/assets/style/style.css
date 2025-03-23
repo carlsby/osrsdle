@@ -197,7 +197,7 @@ a {
   display: flex;
   gap: 20px;
   flex-direction: column;
-  width: 60%;
+  width: 30%;
 }
 
 /* BOSSES */
@@ -559,7 +559,6 @@ input:focus {
 
 @media screen and (max-width: 768px) {
   .boss-main,
-  .button-group,
   .classic-boxes {
     width: 100%;
   }
