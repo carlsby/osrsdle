@@ -73,6 +73,14 @@ export default function Classic() {
     console.log(randomBoss);
   };
 
+  const playAgain = () => {
+    setCorrectGuess(false);
+    setGuessList([]);
+    setSearchQuery("");
+    setGueses(0);
+    setRandomBoss(getRandomBoss(allBosses)); 
+  };
+
   if (!randomBoss) return <div></div>;
 
 
@@ -289,6 +297,7 @@ export default function Classic() {
                   <p className="correct-number">
                     Number of tries: <b>{guesses}</b>
                   </p>
+                  <button className="button play-again" onClick={() => playAgain()}>Play again</button>
                 </div>
               </div>
             </div>

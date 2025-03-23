@@ -70,6 +70,15 @@ const Bosses = () => {
     setAllBosses(updatedBosses);
   };
 
+  const playAgain = () => {
+    setCorrectGuess(false);
+    setGuessList([]);
+    setSearchQuery("");
+    setGueses(0);
+    setBlur(15);
+    setRandomBoss(getRandomBoss(allBosses)); 
+  };
+
   if (!randomBoss) return <div></div>;
 
   return (
@@ -156,6 +165,7 @@ const Bosses = () => {
                   <p className="correct-number">
                     Number of tries: <b>{guesses}</b>
                   </p>
+                  <button className="button play-again" onClick={() => playAgain()}>Play again</button>
                 </div>
               </div>
             </div>

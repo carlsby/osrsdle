@@ -56,6 +56,10 @@ a {
   background-size: 75% 90%;
 }
 
+.play-again {
+  margin-top: 10px;
+}
+
 /* LAYOUT */
 .main-bg {
   position: relative;
