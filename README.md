@@ -2,6 +2,8 @@
 
 <img src="./src/assets/images/osrs_logo.webp" width="250" alt="OSRS Logo" />
 
+<a href="https://osrsdle.netlify.app/">https://osrsdle.netlify.app/</a>
+
 ## Overview
 
 This is a fun and interactive guessing game built with **React** where players try to identify various bosses from the game *Old School RuneScape (OSRS)*. The game presents random information about an OSRS boss, and the user must guess the boss by typing the name into the search bar. The game provides real-time feedback on whether the guess is correct or incorrect, turning the corresponding cell in the table green for correct guesses and red for incorrect guesses.
