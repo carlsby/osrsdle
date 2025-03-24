@@ -72,7 +72,6 @@ export default function Classic() {
   const removeBoss = (bossId) => {
     const updatedBosses = allBosses.filter((boss) => boss.id !== bossId);
     setAllBosses(updatedBosses);
-    console.log(randomBoss);
   };
 
   const playAgain = () => {
